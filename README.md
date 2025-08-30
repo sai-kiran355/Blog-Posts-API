@@ -1,4 +1,5 @@
 "# Blog-Posts-API" 
+
  RESTful API with Node.js, Express & MongoDB
 
 A simple RESTful API built with **Node.js**, **Express**, and **MongoDB**.  
@@ -19,18 +20,26 @@ This project demonstrates CRUD operations (Create, Read, Update, Delete) using R
 ## 📂 Project Structure
 RESTFUL-API/
 │-- config/ # Database connection
+
 │-- models/ # Mongoose models (schemas)
+
 │-- routes/ # Express routes (if added later)
+
 │-- index.js # Main entry point
+
 │-- package.json
+
 │-- .gitignore
 
 -
 
 🛠️ Technologies Used
 Node.js
+
 Express.js
+
 MongoDB (Mongoose)
+
 Postman (for testing)
 
  ⚙️ Installation & Setup
@@ -41,11 +50,12 @@ Postman (for testing)
    cd RESTFUL-API
 2.Install dependencies:
    npm install
+   
 3.Setup environment variables:
 Create a .env file in the root directory and add:
-
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/restfulapi
+
 4.Run the server:
 npm start
 
