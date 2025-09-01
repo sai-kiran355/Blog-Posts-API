@@ -3,7 +3,7 @@ const db = require("./config/db");
 const Post = require("./models/Post");
 const { title } = require("process");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // to parse tha data we must have this middileware
 app.use(express.json());
